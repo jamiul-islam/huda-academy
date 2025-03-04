@@ -122,5 +122,3 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver 9000
 ```
-
-Now the project should be running on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
