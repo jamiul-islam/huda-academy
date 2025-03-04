@@ -1,7 +1,7 @@
 databases:
   - name: eLMSdb
     plan: free
-    databaseName: eLMS
+    databaseName: huda_academyDB
     user: eLMS
 
 services:
