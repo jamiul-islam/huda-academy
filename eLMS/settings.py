@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'discussion.apps.DiscussionConfig',
     'attendance.apps.AttendanceConfig',
-    'quiz.apps.QuizConfig',
     'django_cleanup.apps.CleanupConfig',
     'froala_editor',
 ]
