@@ -1,8 +1,8 @@
 databases:
   - name: eLMSdb
     plan: free
-    databaseName: mysql
-    user: user
+    databaseName: eLMSdb
+    user: eLMS
 
 services:
   - type: web
