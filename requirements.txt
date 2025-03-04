@@ -9,3 +9,4 @@ pycodestyle==2.8.0
 sqlparse==0.4.2
 toml==0.10.2
 tzdata==2022.1
+gunicorn==23.0.0
