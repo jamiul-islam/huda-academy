@@ -1,8 +1,8 @@
 databases:
   - name: eLMSdb
     plan: free
-    databaseName: huda_academyDB
-    user: eLMS
+    databaseName: mysql
+    user: user
 
 services:
   - type: web
