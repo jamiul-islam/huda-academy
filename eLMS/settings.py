@@ -138,7 +138,7 @@ USE_TZ = False
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 
-STATIC_URL = '/static'
+STATIC_URL = '/static/'
 
 # if not DEBUG:
 #     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
