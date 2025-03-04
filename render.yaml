@@ -1,0 +1,22 @@
+databases:
+  - name: eLMSdb
+    plan: free
+    databaseName: eLMS
+    user: eLMS
+
+services:
+  - type: web
+    plan: free
+    name: eLMS
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "python -m gunicorn eLMS.asgi:application -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: eLMSdb
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
