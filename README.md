@@ -5,7 +5,7 @@ A learning management and online assessment system for academic education.
 ## Features
 
 - Admin adds courses, teachers, and students and assigns them courses.
-- Teachers create course content, announcements, assignments, quizzes, take attendance, etc. Teachers can see the details and analysis of the assessments.
+- Teachers create course content, announcements, assignments, take attendance, etc. Teachers can see the details and analysis of the assessments.
 - Students can enroll in the courses using the access key, see the course content of the enrolled courses, participate in assessments, and see their results in detail.
 - Discussion section for both teachers and students.
 
